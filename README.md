@@ -17,6 +17,7 @@ Privacy Policy: https://fingo-tv.vercel.app/privacy
 ## Tech
 
 Plain HTML and CSS only. No frameworks, no build step, no JavaScript, no tracking, no cookies.
+Clean, minimal editorial design (forced light mode, solid brand palette, borderless architectural layout).
 Shared styling lives in `style.css`. Deployed to Vercel as a static site; `vercel.json` enables clean URLs so pages open without `.html`.
 
 ## Contact
