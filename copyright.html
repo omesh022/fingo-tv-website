@@ -5,21 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Copyright and DMCA - Fingo TV</title>
   <meta name="description" content="Copyright and DMCA notice for Fingo TV. Fingo TV is an independent client-side playback tool that does not host, store, transmit or index any media files or streams.">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B1220'/%3E%3Ctext x='32' y='43' font-family='Arial, sans-serif' font-size='30' font-weight='bold' fill='%2314B8A6' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B132B'/%3E%3Ctext x='32' y='43' font-family='sans-serif' font-size='30' font-weight='bold' fill='%230D9488' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
-    <div class="wrap-wide">
-      <a class="brand" href="/">Fingo <span>TV</span></a>
-      <nav class="site-nav" aria-label="Main">
-        <ul>
+    <div class="nav-container">
+      <a href="/" class="brand-logo">Fingo <span>TV</span></a>
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
           <li><a href="/">Home</a></li>
           <li><a href="/privacy">Privacy</a></li>
           <li><a href="/terms">Terms</a></li>
-          <li><a href="/copyright" aria-current="page">Copyright</a></li>
+          <li><a href="/copyright" class="active" aria-current="page">Copyright</a></li>
           <li><a href="/licenses">Licenses</a></li>
         </ul>
       </nav>
@@ -27,9 +30,9 @@
   </header>
 
   <main id="main">
-    <div class="wrap">
-      <h1 class="page-title">Copyright and DMCA Notice</h1>
-      <p class="updated">Last updated: October 17, 2026</p>
+    <article class="legal-document reading-container">
+      <h1>Copyright and DMCA Notice</h1>
+      <p class="legal-meta">Last updated: October 17, 2026</p>
       <p class="lead">Fingo TV is a playback tool, not a content service. This page explains what that means for copyright holders.</p>
 
       <nav class="toc" aria-label="Table of contents">
@@ -44,36 +47,47 @@
         </ol>
       </nav>
 
-      <h2 id="what-fingo-tv-is">What Fingo TV Is</h2>
-      <p>Fingo TV is an independent, client-side playback tool for Android. It works like a web browser or a generic media player: it loads and plays sources that the user provides, on the user's own device. It does not provide, host, distribute or sell any media content, channels, streams or subscriptions, and it is distributed empty.</p>
+      <section class="legal-clause" id="what-fingo-tv-is">
+        <h2>What Fingo TV Is</h2>
+        <p>Fingo TV is an independent, client-side playback tool for Android. It works like a web browser or a generic media player: it loads and plays sources that the user provides, on the user's own device. It does not provide, host, distribute or sell any media content, channels, streams or subscriptions, and it is distributed empty.</p>
+      </section>
 
-      <h2 id="no-affiliation">No Affiliation</h2>
-      <p>Fingo TV is not affiliated with, and is not endorsed by, any TV network, broadcaster, streaming service or IPTV provider.</p>
+      <section class="legal-clause" id="no-affiliation">
+        <h2>No Affiliation</h2>
+        <p>Fingo TV is not affiliated with, and is not endorsed by, any TV network, broadcaster, streaming service or IPTV provider.</p>
+      </section>
 
-      <h2 id="ownership">Names, Titles and Logos</h2>
-      <p>All channel names, program titles, artwork and logos that may appear in the app belong to their respective owners. They are loaded dynamically from playlists that the user provides. Their appearance in the app does not mean those owners endorse or are affiliated with Fingo TV.</p>
+      <section class="legal-clause" id="ownership">
+        <h2>Names, Titles and Logos</h2>
+        <p>All channel names, program titles, artwork and logos that may appear in the app belong to their respective owners. They are loaded dynamically from playlists that the user provides. Their appearance in the app does not mean those owners endorse or are affiliated with Fingo TV.</p>
+      </section>
 
-      <h2 id="no-hosting">We Do Not Host Content</h2>
-      <p>The developer does not host, store, transmit or index any media files or streams. All streams are served by third-party servers chosen by the user. Because of this, the developer cannot remove or take down content that is hosted on third-party servers.</p>
+      <section class="legal-clause" id="no-hosting">
+        <h2>We Do Not Host Content</h2>
+        <p>The developer does not host, store, transmit or index any media files or streams. All streams are served by third-party servers chosen by the user. Because of this, the developer cannot remove or take down content that is hosted on third-party servers.</p>
+      </section>
 
-      <h2 id="for-copyright-holders">For Copyright Holders</h2>
-      <p>If you believe content accessible through a playlist or server infringes your copyright, the effective step is to contact the host of the stream or the person or provider distributing the playlist, as they control the content and can remove it.</p>
-      <p>For inquiries about the Fingo TV app itself, you can contact the developer, Omesh Kumar, at <a href="mailto:info@wdmart.online">info@wdmart.online</a>. Please include the name of the work, your contact details, and a description of the concern so the inquiry can be reviewed.</p>
-      <p>Users of Fingo TV must only use lawful sources they are authorized to access and must not infringe copyright, as set out in the <a href="/terms">Terms of Use</a>.</p>
+      <section class="legal-clause" id="for-copyright-holders">
+        <h2>For Copyright Holders</h2>
+        <p>If you believe content accessible through a playlist or server infringes your copyright, the effective step is to contact the host of the stream or the person or provider distributing the playlist, as they control the content and can remove it.</p>
+        <p>For inquiries about the Fingo TV app itself, you can contact the developer, Omesh Kumar, at <a href="mailto:info@wdmart.online">info@wdmart.online</a>. Please include the name of the work, your contact details, and a description of the concern so the inquiry can be reviewed.</p>
+        <p>Users of Fingo TV must only use lawful sources they are authorized to access and must not infringe copyright, as set out in the <a href="/terms">Terms of Use</a>.</p>
+      </section>
 
-      <h2 id="contact">Contact</h2>
-      <p>Copyright and app-related inquiries: email <a href="mailto:info@wdmart.online">info@wdmart.online</a>.</p>
+      <section class="legal-clause" id="contact">
+        <h2>Contact</h2>
+        <p>Copyright and app-related inquiries: email <a href="mailto:info@wdmart.online">info@wdmart.online</a>.</p>
+      </section>
 
       <p class="note">This notice is provided for information in plain language and is not legal advice.</p>
-    </div>
+    </article>
   </main>
 
   <footer class="site-footer">
-    <div class="wrap-wide">
-      <p>&copy; 2026 Fingo TV</p>
-      <p>Contact: <a href="mailto:info@wdmart.online">info@wdmart.online</a></p>
+    <div class="footer-container">
+      <p>&copy; 2026 Fingo TV &middot; Developer: Omesh Kumar &middot; Contact: <a href="mailto:info@wdmart.online">info@wdmart.online</a></p>
       <nav aria-label="Footer">
-        <ul>
+        <ul class="footer-links">
           <li><a href="/privacy">Privacy</a></li>
           <li><a href="/terms">Terms</a></li>
           <li><a href="/copyright">Copyright</a></li>

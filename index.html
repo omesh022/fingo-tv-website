@@ -5,18 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fingo TV - Android Media and Playlist Player</title>
   <meta name="description" content="Fingo TV is an Android media player and playlist (IPTV) player. It ships empty: you add your own playlist or Xtream Codes login for sources you are legally authorized to access.">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B1220'/%3E%3Ctext x='32' y='43' font-family='Arial, sans-serif' font-size='30' font-weight='bold' fill='%2314B8A6' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B132B'/%3E%3Ctext x='32' y='43' font-family='sans-serif' font-size='30' font-weight='bold' fill='%230D9488' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
-    <div class="wrap-wide">
-      <a class="brand" href="/">Fingo <span>TV</span></a>
-      <nav class="site-nav" aria-label="Main">
-        <ul>
-          <li><a href="/" aria-current="page">Home</a></li>
+    <div class="nav-container">
+      <a href="/" class="brand-logo">Fingo <span>TV</span></a>
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="/" class="active" aria-current="page">Home</a></li>
           <li><a href="/privacy">Privacy</a></li>
           <li><a href="/terms">Terms</a></li>
           <li><a href="/copyright">Copyright</a></li>
@@ -26,55 +29,69 @@
     </div>
   </header>
 
-  <section class="hero">
-    <div class="wrap-wide">
+  <main id="main">
+    <!-- Clean Solid White Hero -->
+    <section class="hero-section">
+      <span class="hero-eyebrow">Android IPTV &amp; Media Player</span>
       <h1>Fingo TV</h1>
       <p>An Android media player and playlist (IPTV) player that plays the sources you add yourself.</p>
-      <!-- TODO: Add the Google Play link here when the app is published: set the href below to the app's Play Store URL, then remove the "hidden" attribute to show the button. -->
-      <a class="btn" href="#" hidden>Get it on Google Play</a>
-    </div>
-  </section>
+    </section>
 
-  <main id="main">
-    <div class="wrap">
+    <!-- About Section -->
+    <section class="content-section">
       <h2>About Fingo TV</h2>
-      <p>Fingo TV does not provide, host, distribute or sell any media content, channels, streams or subscriptions. The app is distributed empty. You add your own playlist or Xtream Codes login for sources you are legally authorized to access, and the app plays them for you.</p>
-      <p>There are no accounts, no developer backend or cloud server, and no tracking. Your playlists, favorites and settings stay on your device. Read the <a href="/privacy">Privacy Policy</a> for the full details.</p>
+      <p>
+        Fingo TV does not provide, host, distribute or sell any media content, channels, streams or subscriptions. 
+        The app is distributed empty. You add your own playlist or Xtream Codes login for sources you are legally 
+        authorized to access, and the app plays them for you.
+      </p>
+      <p>
+        There are no accounts, no developer backend or cloud server, and no tracking. Your playlists, favorites 
+        and settings stay on your device. Read the <a href="/privacy">Privacy Policy</a> for the full details.
+      </p>
+    </section>
 
-      <ul class="cards">
-        <li class="card">
-          <h2>Privacy Policy</h2>
+    <!-- Borderless Editorial Directory (No Boxes) -->
+    <section class="content-section">
+      <div class="directory-grid">
+        <div class="directory-item">
+          <h3>Privacy Policy</h3>
           <p>What the app stores on your device, what it never collects, and how to delete your data.</p>
-          <a href="/privacy">Read the Privacy Policy</a>
-        </li>
-        <li class="card">
-          <h2>Terms of Use</h2>
-          <p>The rules for using Fingo TV, including lawful use and limits of liability.</p>
-          <a href="/terms">Read the Terms of Use</a>
-        </li>
-        <li class="card">
-          <h2>Copyright and DMCA</h2>
-          <p>How copyright applies to a client-side player, and who to contact about content.</p>
-          <a href="/copyright">Read the Copyright notice</a>
-        </li>
-        <li class="card">
-          <h2>Open Source Licenses</h2>
-          <p>The open source libraries Fingo TV is built with, and their licenses.</p>
-          <a href="/licenses">Read the Licenses</a>
-        </li>
-      </ul>
+          <a href="/privacy" class="directory-link">Read the Privacy Policy <span class="arrow">&rarr;</span></a>
+        </div>
 
+        <div class="directory-item">
+          <h3>Terms of Use</h3>
+          <p>The rules for using Fingo TV, including lawful use and limits of liability.</p>
+          <a href="/terms" class="directory-link">Read the Terms of Use <span class="arrow">&rarr;</span></a>
+        </div>
+
+        <div class="directory-item">
+          <h3>Copyright and DMCA</h3>
+          <p>How copyright applies to a client-side player, and who to contact about content.</p>
+          <a href="/copyright" class="directory-link">Read the Copyright notice <span class="arrow">&rarr;</span></a>
+        </div>
+
+        <div class="directory-item">
+          <h3>Open Source Licenses</h3>
+          <p>The open source libraries Fingo TV is built with, and their licenses.</p>
+          <a href="/licenses" class="directory-link">Read the Licenses <span class="arrow">&rarr;</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="content-section">
       <h2>Contact</h2>
       <p>Questions about the app, privacy or copyright: email <a href="mailto:info@wdmart.online">info@wdmart.online</a>. Developer: Omesh Kumar.</p>
-    </div>
+    </section>
   </main>
 
   <footer class="site-footer">
-    <div class="wrap-wide">
-      <p>&copy; 2026 Fingo TV</p>
-      <p>Contact: <a href="mailto:info@wdmart.online">info@wdmart.online</a></p>
+    <div class="footer-container">
+      <p>&copy; 2026 Fingo TV &middot; Developer: Omesh Kumar &middot; Contact: <a href="mailto:info@wdmart.online">info@wdmart.online</a></p>
       <nav aria-label="Footer">
-        <ul>
+        <ul class="footer-links">
           <li><a href="/privacy">Privacy</a></li>
           <li><a href="/terms">Terms</a></li>
           <li><a href="/copyright">Copyright</a></li>

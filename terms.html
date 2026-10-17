@@ -5,20 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Terms of Use - Fingo TV</title>
   <meta name="description" content="Terms of Use for Fingo TV, an Android media and playlist player. Use only lawful sources you are authorized to access.">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B1220'/%3E%3Ctext x='32' y='43' font-family='Arial, sans-serif' font-size='30' font-weight='bold' fill='%2314B8A6' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B132B'/%3E%3Ctext x='32' y='43' font-family='sans-serif' font-size='30' font-weight='bold' fill='%230D9488' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
-    <div class="wrap-wide">
-      <a class="brand" href="/">Fingo <span>TV</span></a>
-      <nav class="site-nav" aria-label="Main">
-        <ul>
+    <div class="nav-container">
+      <a href="/" class="brand-logo">Fingo <span>TV</span></a>
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
           <li><a href="/">Home</a></li>
           <li><a href="/privacy">Privacy</a></li>
-          <li><a href="/terms" aria-current="page">Terms</a></li>
+          <li><a href="/terms" class="active" aria-current="page">Terms</a></li>
           <li><a href="/copyright">Copyright</a></li>
           <li><a href="/licenses">Licenses</a></li>
         </ul>
@@ -27,9 +30,9 @@
   </header>
 
   <main id="main">
-    <div class="wrap">
-      <h1 class="page-title">Terms of Use</h1>
-      <p class="updated">Last updated: October 17, 2026</p>
+    <article class="legal-document reading-container">
+      <h1>Terms of Use</h1>
+      <p class="legal-meta">Last updated: October 17, 2026</p>
       <p class="lead">By using Fingo TV you agree to these terms. Please read them carefully.</p>
 
       <nav class="toc" aria-label="Table of contents">
@@ -46,47 +49,62 @@
         </ol>
       </nav>
 
-      <h2 id="about">About Fingo TV</h2>
-      <p>Fingo TV is an Android media player and playlist (IPTV) player developed by Omesh Kumar. It does not provide, host, distribute or sell any media content, channels, streams or subscriptions. The app is distributed empty. You add your own playlist or Xtream Codes login for sources you are legally authorized to access.</p>
+      <section class="legal-clause" id="about">
+        <h2>About Fingo TV</h2>
+        <p>Fingo TV is an Android media player and playlist (IPTV) player developed by Omesh Kumar. It does not provide, host, distribute or sell any media content, channels, streams or subscriptions. The app is distributed empty. You add your own playlist or Xtream Codes login for sources you are legally authorized to access.</p>
+      </section>
 
-      <h2 id="lawful-use">Lawful Use Only</h2>
-      <ul>
-        <li>You must only use Fingo TV with lawful sources that you are legally authorized to access.</li>
-        <li>You must not use the app to infringe copyright or any other rights of others.</li>
-        <li>You must follow all applicable laws when using the app.</li>
-        <li>You must follow the terms of any provider whose service you access through the app.</li>
-        <li>You are responsible for the playlists and logins you add, and for how you use the app.</li>
-      </ul>
+      <section class="legal-clause" id="lawful-use">
+        <h2>Lawful Use Only</h2>
+        <ul>
+          <li>You must only use Fingo TV with lawful sources that you are legally authorized to access.</li>
+          <li>You must not use the app to infringe copyright or any other rights of others.</li>
+          <li>You must follow all applicable laws when using the app.</li>
+          <li>You must follow the terms of any provider whose service you access through the app.</li>
+          <li>You are responsible for the playlists and logins you add, and for how you use the app.</li>
+        </ul>
+      </section>
 
-      <h2 id="third-party-content">Third-Party Content and Providers</h2>
-      <p>All content you access through Fingo TV comes from third-party servers and providers that you choose and configure. The developer does not control that content, its availability, its quality or its legality, and is not responsible or liable for third-party content or for your use of it. The developer is not affiliated with or endorsed by any provider you access through the app. See also the <a href="/copyright">Copyright and DMCA page</a>.</p>
+      <section class="legal-clause" id="third-party-content">
+        <h2>Third-Party Content and Providers</h2>
+        <p>All content you access through Fingo TV comes from third-party servers and providers that you choose and configure. The developer does not control that content, its availability, its quality or its legality, and is not responsible or liable for third-party content or for your use of it. The developer is not affiliated with or endorsed by any provider you access through the app. See also the <a href="/copyright">Copyright and DMCA page</a>.</p>
+      </section>
 
-      <h2 id="no-warranties">Provided "As Is"</h2>
-      <p>Fingo TV is provided "as is" and "as available", without warranties of any kind, whether express or implied. To the fullest extent permitted by law, the developer makes no warranty that the app will be uninterrupted, error-free, secure, or fit for a particular purpose, or that any third-party content or service accessed through it will be available or correct.</p>
+      <section class="legal-clause" id="no-warranties">
+        <h2>Provided "As Is"</h2>
+        <p>Fingo TV is provided "as is" and "as available", without warranties of any kind, whether express or implied. To the fullest extent permitted by law, the developer makes no warranty that the app will be uninterrupted, error-free, secure, or fit for a particular purpose, or that any third-party content or service accessed through it will be available or correct.</p>
+      </section>
 
-      <h2 id="limitation-of-liability">Limitation of Liability</h2>
-      <p>To the fullest extent permitted by applicable law, Omesh Kumar will not be liable for any indirect, incidental, special, consequential or punitive damages, or for any loss of data, profits, revenue or goodwill, arising from or related to your use of, or inability to use, Fingo TV, or from any third-party content, servers or providers accessed through the app. Where liability cannot be excluded by law, it is limited to the maximum extent the law allows.</p>
-      <p>Nothing in these terms limits liability that cannot be limited under applicable law.</p>
+      <section class="legal-clause" id="limitation-of-liability">
+        <h2>Limitation of Liability</h2>
+        <p>To the fullest extent permitted by applicable law, Omesh Kumar will not be liable for any indirect, incidental, special, consequential or punitive damages, or for any loss of data, profits, revenue or goodwill, arising from or related to your use of, or inability to use, Fingo TV, or from any third-party content, servers or providers accessed through the app. Where liability cannot be excluded by law, it is limited to the maximum extent the law allows.</p>
+        <p>Nothing in these terms limits liability that cannot be limited under applicable law.</p>
+      </section>
 
-      <h2 id="age">Age</h2>
-      <p>Fingo TV is not intended for users under 18.</p>
+      <section class="legal-clause" id="age">
+        <h2>Age</h2>
+        <p>Fingo TV is not intended for users under 18.</p>
+      </section>
 
-      <h2 id="changes">Changes to These Terms</h2>
-      <p>These terms may be updated from time to time. The current version will be posted on this page with a new "Last updated" date, and material changes will be announced in the app and on this site. Material updates require renewed acceptance in the app before you continue using it.</p>
+      <section class="legal-clause" id="changes">
+        <h2>Changes to These Terms</h2>
+        <p>These terms may be updated from time to time. The current version will be posted on this page with a new "Last updated" date, and material changes will be announced in the app and on this site. Material updates require renewed acceptance in the app before you continue using it.</p>
+      </section>
 
-      <h2 id="contact">Contact</h2>
-      <p>Questions about these terms: email <a href="mailto:info@wdmart.online">info@wdmart.online</a>.</p>
+      <section class="legal-clause" id="contact">
+        <h2>Contact</h2>
+        <p>Questions about these terms: email <a href="mailto:info@wdmart.online">info@wdmart.online</a>.</p>
+      </section>
 
       <p class="note">These terms are provided for information in plain language and are not legal advice.</p>
-    </div>
+    </article>
   </main>
 
   <footer class="site-footer">
-    <div class="wrap-wide">
-      <p>&copy; 2026 Fingo TV</p>
-      <p>Contact: <a href="mailto:info@wdmart.online">info@wdmart.online</a></p>
+    <div class="footer-container">
+      <p>&copy; 2026 Fingo TV &middot; Developer: Omesh Kumar &middot; Contact: <a href="mailto:info@wdmart.online">info@wdmart.online</a></p>
       <nav aria-label="Footer">
-        <ul>
+        <ul class="footer-links">
           <li><a href="/privacy">Privacy</a></li>
           <li><a href="/terms">Terms</a></li>
           <li><a href="/copyright">Copyright</a></li>
