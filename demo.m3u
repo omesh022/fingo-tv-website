@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="test1" tvg-name="Big Buck Bunny" group-title="Open Source Cinema",Big Buck Bunny (1080p Test)
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="test2" tvg-name="Tears of Steel" group-title="Open Source Cinema",Tears of Steel (Sci-Fi Test)
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+
+#EXTINF:-1 tvg-id="test3" tvg-name="Mux Test Stream" group-title="Test Streams",Mux Test Stream (Playback Test)
+https://test-streams.mux.dev/test_001/stream.m3u8
